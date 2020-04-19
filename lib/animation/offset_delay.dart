@@ -41,8 +41,8 @@ class _OffsetDelayAnimationState extends State<OffsetDelayAnimation>
 
   @override
   void dispose() {
-    super.dispose();
     _controller.dispose();
+    super.dispose();
   }
 
   @override
